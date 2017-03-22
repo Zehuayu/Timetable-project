@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{1CB56AEB-B2DA-4A99-A87B-278385590CEC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="dialog_SignUp.cs">
+    <Files>
+      <File FileName="dialog_SignUp.cs" Line="46" Column="18" />
+      <File FileName="dialog_SignIn.cs" Line="33" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.com.gmit.TimetableApp AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
