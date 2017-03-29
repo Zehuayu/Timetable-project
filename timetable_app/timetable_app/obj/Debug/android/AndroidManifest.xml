@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.timetable_app">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="10" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
+    <activity android:icon="@mipmap/icon" android:label="timetable_app" android:name="md593e7246fbb674ee650160f4314ba44e9.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="MondayPage" android:name="md593e7246fbb674ee650160f4314ba44e9.MondayPage" />
+    <activity android:label="TuesdayPage" android:name="md593e7246fbb674ee650160f4314ba44e9.TuesdayPage" />
+    <activity android:label="ThursdayPage" android:name="md593e7246fbb674ee650160f4314ba44e9.ThursdayPage" />
+    <activity android:label="WednesdayPage" android:name="md593e7246fbb674ee650160f4314ba44e9.WednesdayPage" />
+    <activity android:label="FridayPage" android:name="md593e7246fbb674ee650160f4314ba44e9.FridayPage" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.timetable_app.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.timetable_app" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

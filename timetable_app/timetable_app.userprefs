@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{A845E2C8-AC00-48CD-8131-B04946EC6211}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="timetable_app/MainActivity.cs">
+    <Files>
+      <File FileName="timetable_app/MondayPage.cs" Line="60" Column="8" />
+      <File FileName="timetable_app/TuesdayPage.cs" Line="55" Column="1" />
+      <File FileName="timetable_app/MainActivity.cs" Line="83" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.timetable__app AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+</Properties>

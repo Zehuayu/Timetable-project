@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <EditText
+        android:id="@+id/userName"
+        android:background="@android:color/darker_gray"
+        android:hint="type your student ID please"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="-10dp"
+        android:textSize="13dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/black"
+        android:paddingLeft="10dp" />
+    <EditText
+        android:id="@+id/pwd"
+        android:background="@android:color/darker_gray"
+        android:hint="type your password please"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="90dp"
+        android:textSize="13dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/black"
+        android:paddingLeft="10dp" />
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="@drawable/buttonsigninstyle"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:text="Sign Up" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="@drawable/buttonsigninstyle"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:text="Sign In" />
+</LinearLayout>
